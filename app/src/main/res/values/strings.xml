@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">MargApp</string>
+    <string name="marg">Marg</string>
+    <string name="user_sign_up">User Sign Up</string>
+    <string name="first_name">First Name</string>
+    <string name="enter_first_name">Enter First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="enter_last_name">Enter Last Name</string>
+    <string name="email">Email</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="phone_no">Phone No</string>
+    <string name="enter_phone_no">Enter Phone No</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="enter_date_of_birth">Enter Date of Birth</string>
+    <string name="password">Password</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_confirm_password">Enter Confirm Password</string>
+    <string name="i_accept_the_terms_and_conditions">I accept the terms and conditions</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="already_hane_an_account_sign_in">Already hane an account? Sign in</string>
+    <string name="userlog_in">UserLog in</string>
+    <string name="user_id_email">User ID/Email</string>
+    <string name="create_new_account_sign_up">Create new account? Sign Up</string>
+    <!--    <string name="client_id">251261850000-0h2m5ud28v1ipq1ab6c2j9n2ro8o86hh.apps.googleusercontent.com</string>-->
+
+    <string-array name="spinner_values">
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="categories">
+        <item>Science</item>
+        <item>Commerce</item>
+        <item>Arts</item>
+        <item>Other</item>
+        <item>None</item>
+    </string-array>
+
+</resources>

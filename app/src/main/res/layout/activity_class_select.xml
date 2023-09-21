@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grad1"
+    tools:context=".Activities.ClassSelectActivity">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/grad1"
+        >
+
+        <!-- Centered "Marg" TextView -->
+        <TextView
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:id="@+id/text_marg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:text="@string/marg"
+            android:textSize="68sp"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold"
+            android:textAllCaps="true"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:padding="8dp"/>
+        <TextView
+            android:id="@+id/text_class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Select Your Class"
+            app:layout_constraintTop_toBottomOf="@id/text_marg"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:gravity="center"/>
+        <Spinner
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_class"
+            android:id="@+id/spinner"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:spinnerMode="dropdown"
+            android:padding="10dp"
+            android:layout_marginStart="80dp"
+
+            android:layout_marginEnd="80dp"
+            android:popupBackground="@drawable/popupbackground"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/spinner_background"/>
+        <TextView
+            android:id="@+id/text_basic_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Start Your Basic Test"
+            app:layout_constraintTop_toBottomOf="@id/spinner"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="24sp"
+            android:gravity="center"/>
+
+        <androidx.cardview.widget.CardView
+            app:layout_constraintTop_toBottomOf="@id/text_basic_text"
+            android:id="@+id/cardView"
+            android:layout_width="match_parent"
+            android:layout_height="280dp"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="15dp"
+            app:cardElevation="4dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+
+            app:cardBackgroundColor="@android:color/transparent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="6dp"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/instructionsHeading"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Instructions"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="8dp"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• This is a Basic text"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• This is a aptitude base test"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• It consists of 10 Graded Questions"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="• Each of 10 marks"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="4dp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <TextView
+            android:id="@+id/text_basic_text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="complete your test to get personalized suggestions for your career"
+            app:layout_constraintTop_toBottomOf="@id/cardView"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:padding="10dp"
+            android:layout_marginTop="25dp"
+            />
+        <Button
+            android:id="@+id/btnstartTest"
+            android:layout_width="320dp"
+            android:layout_height="wrap_content"
+            android:text="Start Test"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:background="@drawable/rounded_button"
+            android:layout_margin="26dp"
+            android:padding="16dp"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/text_basic_text2"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="15dp"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "251261850000",
+    "project_id": "margapp-a419e",
+    "storage_bucket": "margapp-a419e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:251261850000:android:0971fef6b7f255056ca315",
+        "android_client_info": {
+          "package_name": "com.yashendra.margapp_2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "251261850000-0h2m5ud28v1ipq1ab6c2j9n2ro8o86hh.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yashendra.margapp_2",
+            "certificate_hash": "60e139c8c47552b51ac49f8af19cb1e5a5cd0c79"
+          }
+        },
+        {
+          "client_id": "251261850000-ctbr79vo9tn7fc4sn96uurq9m10phsnt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBFIEYlLQbi4xBQseS4oa9zoY4m-F-22Zw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "251261850000-ctbr79vo9tn7fc4sn96uurq9m10phsnt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

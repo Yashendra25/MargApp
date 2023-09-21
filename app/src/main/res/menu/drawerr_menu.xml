@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+        <item android:title="General" android:id="@+id/btgeneral"/>
+        <item android:title="Edit Account Details" android:id="@+id/btneditaccountdetails"/>
+        <item android:title="About" android:id="@+id/btnabout"/>
+    <item android:title="Block" android:id="@+id/btnblock"/>
+    <item android:title="App Language" android:id="@+id/btnapplanguage"/>
+    <item android:title="Appearence" android:id="@+id/btnappreance"/>
+    <item android:title="Data and storage" android:id="@+id/btndataandstorage"/>
+</menu>
